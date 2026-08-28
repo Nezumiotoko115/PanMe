@@ -1,0 +1,19 @@
+[Unit]
+Description=PanMe IoT Demo System
+After=graphical.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/PanMe/panme_iot
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+Environment=PANME_MOCK_MODE=false
+ExecStart=/home/pi/PanMe/panme_iot/.venv/bin/python /home/pi/PanMe/panme_iot/main.py
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=10
+
+[Install]
+WantedBy=graphical.target

@@ -1,0 +1,19 @@
+[
+  {"locker_id":"A-01","product_id":"P001","product_name":"チョコパン","category":"パン","stock":3,"status":"AVAILABLE","image":null},
+  {"locker_id":"A-02","product_id":"P002","product_name":"メロンパン","category":"パン","stock":1,"status":"AVAILABLE","image":null},
+  {"locker_id":"A-03","product_id":"P003","product_name":"鮭おにぎり","category":"おにぎり","stock":0,"status":"SOLD_OUT","image":null},
+  {"locker_id":"A-04","product_id":"P004","product_name":"たまごサンド","category":"サンドイッチ","stock":5,"status":"AVAILABLE","image":null},
+  {"locker_id":"B-01","product_id":"P005","product_name":"カレーパン","category":"パン","stock":2,"status":"AVAILABLE","image":null},
+  {"locker_id":"B-02","product_id":"P006","product_name":"ツナおにぎり","category":"おにぎり","stock":4,"status":"AVAILABLE","image":null},
+  {"locker_id":"B-03","product_id":"P007","product_name":"ハムサンド","category":"サンドイッチ","stock":2,"status":"AVAILABLE","image":null},
+  {"locker_id":"B-04","product_id":"P008","product_name":"焼きそばパン","category":"パン","stock":1,"status":"AVAILABLE","image":null},
+  {"locker_id":"C-01","product_id":"P009","product_name":"ミルクティー","category":"飲料","stock":6,"status":"AVAILABLE","image":null},
+  {"locker_id":"C-02","product_id":"P010","product_name":"オレンジジュース","category":"飲料","stock":3,"status":"AVAILABLE","image":null},
+  {"locker_id":"C-03","product_id":"P011","product_name":"ミネラルウォーター","category":"飲料","stock":8,"status":"AVAILABLE","image":null},
+  {"locker_id":"C-04","product_id":"P012","product_name":"ココア","category":"飲料","stock":0,"status":"SOLD_OUT","image":null},
+  {"locker_id":"D-01","product_id":"P013","product_name":"ポテトチップス","category":"お菓子","stock":4,"status":"AVAILABLE","image":null},
+  {"locker_id":"D-02","product_id":"P014","product_name":"チョコレート","category":"お菓子","stock":2,"status":"AVAILABLE","image":null},
+  {"locker_id":"D-03","product_id":"P015","product_name":"クッキー","category":"お菓子","stock":5,"status":"AVAILABLE","image":null},
+  {"locker_id":"D-04","product_id":"P016","product_name":"フルーツゼリー","category":"お菓子","stock":1,"status":"AVAILABLE","image":null}
+]
+
