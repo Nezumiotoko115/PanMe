@@ -84,7 +84,7 @@ DEMO_API_FALLBACK = _env_bool("PANME_DEMO_API_FALLBACK", True)
 # Falseならデモ商品の在庫を減らさず、同じ撮影を何度でも繰り返せます。
 DEMO_DECREASE_STOCK = _env_bool("PANME_DEMO_DECREASE_STOCK", False)
 DEMO_USER_ID = os.getenv("PANME_DEMO_USER_ID", "001")
-DEMO_USER_NAME = os.getenv("PANME_DEMO_USER_NAME", "大崎　蒼")
+DEMO_USER_NAME = os.getenv("PANME_DEMO_USER_NAME", "Test 太郎")
 DEMO_STUDENT_ID = os.getenv("PANME_DEMO_STUDENT_ID", "123456")
 FULLSCREEN = _env_bool("PANME_FULLSCREEN", True)
 SCREEN_TIMEOUT = _env_int("PANME_SCREEN_TIMEOUT", 60)
